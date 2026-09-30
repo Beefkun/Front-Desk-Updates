@@ -1,10 +1,14 @@
 {
-  "version": "0.22.7",
-  "released": "2026-09-29",
+  "version": "0.23.0",
+  "released": "2026-09-30",
   "notes": [
+    "Update just the main computer: support computers on Windows update themselves to match it, when nobody is checked in and nobody has used them for 5 minutes.",
     "Your records are protected from other phones and computers on the Wi-Fi. After updating, scan the code from Setup → Connect a device once on each tablet.",
     "Support computers stay connected while the main computer's window is minimized, and never miss a visit.",
     "Tablets can switch rooms: tap a room's name on the Room tab."
   ],
-  "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are."
+  "how": "Shahien will send you the new installer. Install it on the main computer over the old one; your records stay as they are. Support computers on Windows then update themselves (install this version on them by hand once).",
+  "installers": {
+    "0.23.0": "3aac81b6a3ad66d8f484cf4371791812cc38cfa4d0231f3c6f85ee62196eee4b"
+  }
 }
