@@ -1,11 +1,10 @@
 {
-  "version": "0.17.0",
-  "released": "2026-09-27",
+  "version": "0.22.7",
+  "released": "2026-09-29",
   "notes": [
-    "Front Desk tells you when a newer version is out: Setup shows what's new and how to get it, and a banner on the main screen has a Not now button.",
-    "It checks once a day when the computer is online, by reading one small public file.",
-    "You can turn the check off in Setup, under Updates.",
-    "Setup's \"Your data\" now says plainly that this daily check is the one thing that goes online."
+    "Your records are protected from other phones and computers on the Wi-Fi. After updating, scan the code from Setup → Connect a device once on each tablet.",
+    "Support computers stay connected while the main computer's window is minimized, and never miss a visit.",
+    "Tablets can switch rooms: tap a room's name on the Room tab."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are."
 }
