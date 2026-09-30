@@ -10,7 +10,7 @@
   ],
   "how": "Shahien will send you the new installer. Install it on the main computer over the old one; your records stay as they are. Support computers on Windows with 0.23.0 or later then update themselves; older ones need this version installed by hand once.",
   "installers": {
-    "0.23.1": "bec75caa2e8cd17fbb11801a2e361d7ca1966cd510f61734c7bdd119554f7442",
+    "0.23.1": "35edc61932ad90f097e19964b2b400217b8371b85632da1c138f3e84bdd15018",
     "0.23.0": "3aac81b6a3ad66d8f484cf4371791812cc38cfa4d0231f3c6f85ee62196eee4b"
   }
 }
