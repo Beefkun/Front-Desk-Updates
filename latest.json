@@ -1,15 +1,18 @@
 {
-  "version": "0.23.2",
+  "version": "0.23.3",
   "released": "2026-09-30",
   "notes": [
-    "The main computer says when supports can't update from it: a banner appears when it has no copy of the installer to share, or its copy isn't the published one for its version (a rebuilt installer…",
-    "A Mac main computer updates Windows supports too, when it's installed from the same version's Mac kit.",
-    "Update just the main computer: support computers on Windows update themselves to match it, when nobody is checked in and nobody has used them for 5 minutes.",
-    "Your records are protected from other phones and computers on the Wi-Fi. After updating, scan the code from Setup → Connect a device once on each tablet.",
-    "Tablets can switch rooms: tap a room's name on the Room tab."
+    "A double scan at a support computer no longer checks the student straight back out: a bouncy scanner or a second pull of the trigger at a support recorded a check-in and a check-out (BUG-109).",
+    "Support computers keep up even if the main computer's clock was once set wrong: one record stamped in the future stopped them receiving new check-ins for hours (BUG-110).",
+    "Undo works on the first tap right after a scan, while the check-in stamp is still showing (BUG-111).",
+    "Staff punches reach support computers once each: a few were being saved twice (BUG-112).",
+    "Undo at a support computer takes back the right student: pressed a moment after a scan, it could take back the student before (BUG-113).",
+    "Support computers get every automatic check-out: one closing out a visit from an earlier day could miss them until they restarted (BUG-114).",
+    "Checked and working at this size: start-up, every screen, backups, the two-year log, payroll and overtime against an independent calculation, and the Florida rules for staff under 18."
   ],
-  "how": "Shahien will send you the new installer. Install it on the main computer over the old one; your records stay as they are. Support computers on Windows with 0.23.0 or later then update themselves; older ones need this version installed by hand once.",
+  "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.23.3": "1b53172703d3b942049c14bb44e3794dd832841e06f103af089f99a71002c8ce",
     "0.23.2": "8c2dba3f9d7296e3596416235a4b079f28dcf804314c475e6f753a4b15624d33",
     "0.23.1": "35edc61932ad90f097e19964b2b400217b8371b85632da1c138f3e84bdd15018",
     "0.23.0": "3aac81b6a3ad66d8f484cf4371791812cc38cfa4d0231f3c6f85ee62196eee4b"
