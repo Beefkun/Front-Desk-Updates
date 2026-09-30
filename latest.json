@@ -1,15 +1,16 @@
 {
-  "version": "0.23.1",
+  "version": "0.23.2",
   "released": "2026-09-30",
   "notes": [
-    "A Mac main computer updates Windows supports too: the Mac kit now carries the Windows installer, and the Mac install puts it in the Front Desk folder, where the main computer shares it.",
+    "The main computer says when supports can't update from it: a banner appears when it has no copy of the installer to share, or its copy isn't the published one for its version (a rebuilt installer…",
+    "A Mac main computer updates Windows supports too, when it's installed from the same version's Mac kit.",
     "Update just the main computer: support computers on Windows update themselves to match it, when nobody is checked in and nobody has used them for 5 minutes.",
     "Your records are protected from other phones and computers on the Wi-Fi. After updating, scan the code from Setup → Connect a device once on each tablet.",
-    "Support computers stay connected while the main computer's window is minimized, and never miss a visit.",
     "Tablets can switch rooms: tap a room's name on the Room tab."
   ],
   "how": "Shahien will send you the new installer. Install it on the main computer over the old one; your records stay as they are. Support computers on Windows with 0.23.0 or later then update themselves; older ones need this version installed by hand once.",
   "installers": {
+    "0.23.2": "8c2dba3f9d7296e3596416235a4b079f28dcf804314c475e6f753a4b15624d33",
     "0.23.1": "35edc61932ad90f097e19964b2b400217b8371b85632da1c138f3e84bdd15018",
     "0.23.0": "3aac81b6a3ad66d8f484cf4371791812cc38cfa4d0231f3c6f85ee62196eee4b"
   }
