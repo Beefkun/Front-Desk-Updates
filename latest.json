@@ -1,17 +1,19 @@
 {
-  "version": "0.23.3",
-  "released": "2026-09-30",
+  "version": "0.25.0",
+  "released": "2026-10-01",
   "notes": [
-    "A double scan at a support computer no longer checks the student straight back out: a bouncy scanner or a second pull of the trigger at a support recorded a check-in and a check-out (BUG-109).",
-    "Support computers keep up even if the main computer's clock was once set wrong: one record stamped in the future stopped them receiving new check-ins for hours (BUG-110).",
-    "Undo works on the first tap right after a scan, while the check-in stamp is still showing (BUG-111).",
-    "Staff punches reach support computers once each: a few were being saved twice (BUG-112).",
-    "Undo at a support computer takes back the right student: pressed a moment after a scan, it could take back the student before (BUG-113).",
-    "Support computers get every automatic check-out: one closing out a visit from an earlier day could miss them until they restarted (BUG-114).",
-    "Checked and working at this size: start-up, every screen, backups, the two-year log, payroll and overtime against an independent calculation, and the Florida rules for staff under 18."
+    "Front Desk keeps the computer awake while it's open: a main computer that went to sleep dropped off for every support computer, and supports could start offering to take over.",
+    "Start Front Desk when this computer starts: a new Setup item, This computer.",
+    "On a Mac, Front Desk opens in its own window: it was landing as a tab in the Chrome already open.",
+    "One Mac app for Intel and Apple-chip Macs: the connect code for phones is drawn without Pillow, the one part that stopped a universal build.",
+    "A Mac app opened from the disk image says to move it to Applications first, instead of starting without its files (macOS runs an app opened from Downloads or a disk image from a hidden copy).",
+    "Linux: install-front-desk-linux.sh puts Front Desk in the applications menu; the kit carries the QR code library in a lib folder (Debian and MX Linux refuse a plain pip install); the start script…",
+    "Support computers keep checking in while the main computer can't be reached: asleep, restarting or off the Wi-Fi, a support used to refuse (\"couldn't reach the main computer\") and the scan was lost.",
+    "A main computer none of its supports can reach says so: after 10 minutes with no support getting through since it started, it shows a note to check the Wi-Fi and its firewall (on a Mac, the \"accept…"
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.25.0": "019f9ac6426f0ff9937c4588c3813776ceda5f089423449fffa553649d8c23f7",
     "0.23.3": "1b53172703d3b942049c14bb44e3794dd832841e06f103af089f99a71002c8ce",
     "0.23.2": "8c2dba3f9d7296e3596416235a4b079f28dcf804314c475e6f753a4b15624d33",
     "0.23.1": "35edc61932ad90f097e19964b2b400217b8371b85632da1c138f3e84bdd15018",
