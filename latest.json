@@ -1,11 +1,12 @@
 {
-  "version": "0.25.1",
-  "released": "2026-10-01",
+  "version": "0.25.2",
+  "released": "2026-10-02",
   "notes": [
-    "A support computer that restarts no longer saves its visits twice."
+    "A support computer notices a main computer that's gone to sleep."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.25.2": "e2a6d54e689103b1c4d33dcbab9f8e05aeca2ad3d0508c82e73263af50b9540a",
     "0.25.1": "4dab5b0cbc4fe2fb9d0a591ae0f1427688ece595eeaa5a933ed7a004c723bcbb",
     "0.25.0": "019f9ac6426f0ff9937c4588c3813776ceda5f089423449fffa553649d8c23f7",
     "0.23.3": "1b53172703d3b942049c14bb44e3794dd832841e06f103af089f99a71002c8ce",
