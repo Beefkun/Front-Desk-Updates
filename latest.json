@@ -1,13 +1,19 @@
 {
-  "version": "0.25.5",
+  "version": "0.25.6",
   "released": "2026-10-04",
   "notes": [
-    "Import schedules helps tidy up students entered twice.",
-    "Imported classes are never put in the middle of the night.",
-    "Each sheet's zone is filled in for you more often: from the zone its students are already in, or as you chose last time."
+    "Combine a student entered twice.",
+    "Undo last import.",
+    "Import schedules remembers your answers.",
+    "Opening hours in the middle of the night are questioned.",
+    "Subjects come in with the schedule.",
+    "A roster with each student's week written out imports too.",
+    "Import schedules points out clashes.",
+    "Notes on your schedule can go to the student."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.25.6": "cd7e39b8b4e7f3561ce2b6768bc40b49a4f685e71d9a6e058524088d086b61b9",
     "0.25.5": "4767479c6a8885f19c8f2d1cabe382581aea832debc7f6272b3caa78abece521",
     "0.25.4": "42d8084a064706bf56d7b3b7996049e5fa30a9b23613e202c45223498aa5aa28",
     "0.25.3": "bc9f34f550546041f625fabf3dc548f924ff47b0087ab8a46db47d402db3be04",
