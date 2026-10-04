@@ -1,18 +1,18 @@
 {
-  "version": "0.25.6",
+  "version": "0.26.0",
   "released": "2026-10-04",
   "notes": [
-    "Combine a student entered twice.",
-    "Undo last import.",
-    "Import schedules remembers your answers.",
-    "Opening hours in the middle of the night are questioned.",
-    "Subjects come in with the schedule.",
-    "A roster with each student's week written out imports too.",
-    "Import schedules points out clashes.",
-    "Notes on your schedule can go to the student."
+    "Mac and Linux support computers update themselves too, like Windows ones: from the main computer, checked against the published fingerprint, keeping the old copy in case the new one doesn't start.",
+    "A door station keeps check-ins while the main computer is asleep and sends them, with the time of each scan, when it's back.",
+    "Export the week to a spreadsheet: a sheet per zone, days across the top and the half hours down the side.",
+    "Undo any of the last ten schedule imports, not just the last one: Undo an import… lists them.",
+    "A profile shows the other names a schedule import knows the student by, and one that isn't them can be taken off.",
+    "Students named as tests (\"test2\", \"Test 1\") can be removed together from the Students tab, after you untick any that are real.",
+    "Adding a student who looks already on the roster asks first, by hand and in the student import: a middle name, a nickname or a slip in the spelling is noticed."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.26.0": "044ab676d2bd71a5799230578d77d4aee806aae5e3345ee0aa4af72c95346359",
     "0.25.6": "cd7e39b8b4e7f3561ce2b6768bc40b49a4f685e71d9a6e058524088d086b61b9",
     "0.25.5": "4767479c6a8885f19c8f2d1cabe382581aea832debc7f6272b3caa78abece521",
     "0.25.4": "42d8084a064706bf56d7b3b7996049e5fa30a9b23613e202c45223498aa5aa28",
@@ -24,5 +24,18 @@
     "0.23.2": "8c2dba3f9d7296e3596416235a4b079f28dcf804314c475e6f753a4b15624d33",
     "0.23.1": "35edc61932ad90f097e19964b2b400217b8371b85632da1c138f3e84bdd15018",
     "0.23.0": "3aac81b6a3ad66d8f484cf4371791812cc38cfa4d0231f3c6f85ee62196eee4b"
+  },
+  "packages": {
+    "0.26.0": {
+      "windows": {
+        "sha256": "044ab676d2bd71a5799230578d77d4aee806aae5e3345ee0aa4af72c95346359"
+      },
+      "linux": {
+        "sha256": "11b9d5dc7b723b9619eb574f3f84591067a004c54c4add2b0de45df79024fa1d"
+      },
+      "mac": {
+        "sha256": "3940df869d1323c39e770d965851987b4c5b6ced5c39d96d141e9bd23d3dac3f"
+      }
+    }
   }
 }
