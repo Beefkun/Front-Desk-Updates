@@ -1,14 +1,12 @@
 {
-  "version": "0.25.3",
+  "version": "0.25.4",
   "released": "2026-10-03",
   "notes": [
-    "Import your schedule from your own spreadsheet.",
-    "The room arranger keeps what you type.",
-    "A table you're dragging stays where you put it.",
-    "Room changes made on two computers at once both stick."
+    "Import schedules recognizes your students far more often."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.25.4": "42d8084a064706bf56d7b3b7996049e5fa30a9b23613e202c45223498aa5aa28",
     "0.25.3": "bc9f34f550546041f625fabf3dc548f924ff47b0087ab8a46db47d402db3be04",
     "0.25.2": "e2a6d54e689103b1c4d33dcbab9f8e05aeca2ad3d0508c82e73263af50b9540a",
     "0.25.1": "4dab5b0cbc4fe2fb9d0a591ae0f1427688ece595eeaa5a933ed7a004c723bcbb",
