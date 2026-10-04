@@ -1,11 +1,14 @@
 {
-  "version": "0.25.4",
-  "released": "2026-10-03",
+  "version": "0.25.5",
+  "released": "2026-10-04",
   "notes": [
-    "Import schedules recognizes your students far more often."
+    "Import schedules helps tidy up students entered twice.",
+    "Imported classes are never put in the middle of the night.",
+    "Each sheet's zone is filled in for you more often: from the zone its students are already in, or as you chose last time."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.25.5": "4767479c6a8885f19c8f2d1cabe382581aea832debc7f6272b3caa78abece521",
     "0.25.4": "42d8084a064706bf56d7b3b7996049e5fa30a9b23613e202c45223498aa5aa28",
     "0.25.3": "bc9f34f550546041f625fabf3dc548f924ff47b0087ab8a46db47d402db3be04",
     "0.25.2": "e2a6d54e689103b1c4d33dcbab9f8e05aeca2ad3d0508c82e73263af50b9540a",
