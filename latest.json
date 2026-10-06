@@ -1,18 +1,12 @@
 {
-  "version": "0.26.1",
-  "released": "2026-10-04",
+  "version": "0.26.2",
+  "released": "2026-10-06",
   "notes": [
-    "A staff schedule: each person's usual hours, and the Staff tab says who is running late, who didn't come in and who is still here after their shift.",
-    "Time off: staff ask from their card, managers approve, paid time off balances are kept, and paid time off is paid and in the payroll file.",
-    "Payroll files for Gusto, ADP Workforce Now and QuickBooks Online, in each one's own import format.",
-    "Students for each person working, now and hour by hour today, with an optional limit to be warned about.",
-    "A practice copy with made-up records, and a busy afternoon run across the center's computers that says whether they all agree.",
-    "Importing students starts with what it found in the file, and combines a child listed twice into one student unless you say they're two.",
-    "Connected devices says which phones and tablets connected today, and suggests renewing the connect code once a month.",
-    "Check-ins saved on a support while the main computer was away keep the time of the tap, not the time they were saved."
+    "Card QR codes now follow the QR standard exactly, so desk scanners read them as reliably as cameras do."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.26.2": "adfdc41263f47f5f25b215f84e111ae48c12f21608f1debc44ad7720553ddce0",
     "0.26.1": "11abb4989ac0386f8d281a0bf761a8a57e255cc83ba4e9125ecfff45f2c99ef8",
     "0.26.0": "044ab676d2bd71a5799230578d77d4aee806aae5e3345ee0aa4af72c95346359",
     "0.25.6": "cd7e39b8b4e7f3561ce2b6768bc40b49a4f685e71d9a6e058524088d086b61b9",
@@ -23,10 +17,20 @@
     "0.25.1": "4dab5b0cbc4fe2fb9d0a591ae0f1427688ece595eeaa5a933ed7a004c723bcbb",
     "0.25.0": "019f9ac6426f0ff9937c4588c3813776ceda5f089423449fffa553649d8c23f7",
     "0.23.3": "1b53172703d3b942049c14bb44e3794dd832841e06f103af089f99a71002c8ce",
-    "0.23.2": "8c2dba3f9d7296e3596416235a4b079f28dcf804314c475e6f753a4b15624d33",
-    "0.23.1": "35edc61932ad90f097e19964b2b400217b8371b85632da1c138f3e84bdd15018"
+    "0.23.2": "8c2dba3f9d7296e3596416235a4b079f28dcf804314c475e6f753a4b15624d33"
   },
   "packages": {
+    "0.26.2": {
+      "windows": {
+        "sha256": "adfdc41263f47f5f25b215f84e111ae48c12f21608f1debc44ad7720553ddce0"
+      },
+      "linux": {
+        "sha256": "f18b744316d6cdc32291deaafe0361c7726f21f19c769f0a4e02c66a820c4a24"
+      },
+      "mac": {
+        "sha256": "56f22d87e33f61c7cb715bbe90b6447b5454d35d3d790767dc3e19e7fb910b53"
+      }
+    },
     "0.26.1": {
       "windows": {
         "sha256": "11abb4989ac0386f8d281a0bf761a8a57e255cc83ba4e9125ecfff45f2c99ef8"
