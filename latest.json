@@ -1,11 +1,12 @@
 {
-  "version": "0.26.2",
-  "released": "2026-10-06",
+  "version": "0.26.3",
+  "released": "2026-10-10",
   "notes": [
-    "Card QR codes now follow the QR standard exactly, so desk scanners read them as reliably as cameras do."
+    "Cards printed with 0.26.2 scan with the camera again, and so does every card printed before."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.26.3": "cdd8de94829fd2a638c0b888c1b02afae415ab41e9eb9b875ba82682209ab888",
     "0.26.2": "adfdc41263f47f5f25b215f84e111ae48c12f21608f1debc44ad7720553ddce0",
     "0.26.1": "11abb4989ac0386f8d281a0bf761a8a57e255cc83ba4e9125ecfff45f2c99ef8",
     "0.26.0": "044ab676d2bd71a5799230578d77d4aee806aae5e3345ee0aa4af72c95346359",
@@ -16,10 +17,20 @@
     "0.25.2": "e2a6d54e689103b1c4d33dcbab9f8e05aeca2ad3d0508c82e73263af50b9540a",
     "0.25.1": "4dab5b0cbc4fe2fb9d0a591ae0f1427688ece595eeaa5a933ed7a004c723bcbb",
     "0.25.0": "019f9ac6426f0ff9937c4588c3813776ceda5f089423449fffa553649d8c23f7",
-    "0.23.3": "1b53172703d3b942049c14bb44e3794dd832841e06f103af089f99a71002c8ce",
-    "0.23.2": "8c2dba3f9d7296e3596416235a4b079f28dcf804314c475e6f753a4b15624d33"
+    "0.23.3": "1b53172703d3b942049c14bb44e3794dd832841e06f103af089f99a71002c8ce"
   },
   "packages": {
+    "0.26.3": {
+      "windows": {
+        "sha256": "cdd8de94829fd2a638c0b888c1b02afae415ab41e9eb9b875ba82682209ab888"
+      },
+      "linux": {
+        "sha256": "2cdbc3134ad7a296b3db11cebbcd4c1d6029b0f4a4551afeaacfdb77645a3189"
+      },
+      "mac": {
+        "sha256": "1b51359b6469271bc763aa2befbd4e909af9672af221ea5b428ea6e7f65a204e"
+      }
+    },
     "0.26.2": {
       "windows": {
         "sha256": "adfdc41263f47f5f25b215f84e111ae48c12f21608f1debc44ad7720553ddce0"
