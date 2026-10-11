@@ -1,11 +1,14 @@
 {
-  "version": "0.28.1",
+  "version": "0.28.2",
   "released": "2026-10-11",
   "notes": [
-    "Lessons always have students to practice with: the made-up Maple Street Learning Center loads for a lesson even on a practice copy that's been used before."
+    "Lessons tell you exactly what to do, with the made-up students by name: \"Henry Wilson just walked in.",
+    "The screen dims around the button to press, with a flashing ring and an arrow, and the instruction right beside it.",
+    "Stuck?"
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.28.2": "73c45373693043b2ba03be7da40e1ea191d4f939ab1a69929b42ac802d0269a5",
     "0.28.1": "68d32106cc7e9755b308d17abc895b3ef3ae7295da9fee92aa8cb161bacca848",
     "0.28.0": "0ef9c4bbe87342ed2d3a86b5d201b3dfd57a51e05ae110931875e9594c7fa7be",
     "0.27.0": "40800128f5ec40801a1e6fdb3ceafd2b0bdc046baff4372d3368a3916d8d6e76",
@@ -16,10 +19,20 @@
     "0.25.6": "cd7e39b8b4e7f3561ce2b6768bc40b49a4f685e71d9a6e058524088d086b61b9",
     "0.25.5": "4767479c6a8885f19c8f2d1cabe382581aea832debc7f6272b3caa78abece521",
     "0.25.4": "42d8084a064706bf56d7b3b7996049e5fa30a9b23613e202c45223498aa5aa28",
-    "0.25.3": "bc9f34f550546041f625fabf3dc548f924ff47b0087ab8a46db47d402db3be04",
-    "0.25.2": "e2a6d54e689103b1c4d33dcbab9f8e05aeca2ad3d0508c82e73263af50b9540a"
+    "0.25.3": "bc9f34f550546041f625fabf3dc548f924ff47b0087ab8a46db47d402db3be04"
   },
   "packages": {
+    "0.28.2": {
+      "windows": {
+        "sha256": "73c45373693043b2ba03be7da40e1ea191d4f939ab1a69929b42ac802d0269a5"
+      },
+      "linux": {
+        "sha256": "82ae07d83ee0a7e52e8ce6e46baf808cfd801174fe3e913752f338fca14c0d0d"
+      },
+      "mac": {
+        "sha256": "3b26b5287e0e24a99d17b02633447851e1fef40e0a7293ff006d3bfc2ea35fb7"
+      }
+    },
     "0.28.1": {
       "windows": {
         "sha256": "68d32106cc7e9755b308d17abc895b3ef3ae7295da9fee92aa8cb161bacca848"
