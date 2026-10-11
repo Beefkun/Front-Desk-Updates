@@ -1,11 +1,16 @@
 {
-  "version": "0.26.3",
+  "version": "0.27.0",
   "released": "2026-10-10",
   "notes": [
-    "Cards printed with 0.26.2 scan with the camera again, and so does every card printed before."
+    "Who's here colors follow the time a student has actually been here, 30 minutes a subject: green, amber for the last ten minutes, red when over.",
+    "Search finds names by how they start: the first name when the list is sorted by first name, the last name when sorted by last name, with letters beside the check-in list.",
+    "Suggested schedule changes on the Schedule tab, for students who keep coming at another time or on another day.",
+    "Who's here has a Sort, and Expected, Needs a make-up and Upcoming make-ups fold away.",
+    "Older iPads work as check-in stations (iPadOS 15), and one too old to run Front Desk says so instead of freezing (BUG-139)."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.27.0": "40800128f5ec40801a1e6fdb3ceafd2b0bdc046baff4372d3368a3916d8d6e76",
     "0.26.3": "cdd8de94829fd2a638c0b888c1b02afae415ab41e9eb9b875ba82682209ab888",
     "0.26.2": "adfdc41263f47f5f25b215f84e111ae48c12f21608f1debc44ad7720553ddce0",
     "0.26.1": "11abb4989ac0386f8d281a0bf761a8a57e255cc83ba4e9125ecfff45f2c99ef8",
@@ -16,10 +21,20 @@
     "0.25.3": "bc9f34f550546041f625fabf3dc548f924ff47b0087ab8a46db47d402db3be04",
     "0.25.2": "e2a6d54e689103b1c4d33dcbab9f8e05aeca2ad3d0508c82e73263af50b9540a",
     "0.25.1": "4dab5b0cbc4fe2fb9d0a591ae0f1427688ece595eeaa5a933ed7a004c723bcbb",
-    "0.25.0": "019f9ac6426f0ff9937c4588c3813776ceda5f089423449fffa553649d8c23f7",
-    "0.23.3": "1b53172703d3b942049c14bb44e3794dd832841e06f103af089f99a71002c8ce"
+    "0.25.0": "019f9ac6426f0ff9937c4588c3813776ceda5f089423449fffa553649d8c23f7"
   },
   "packages": {
+    "0.27.0": {
+      "windows": {
+        "sha256": "40800128f5ec40801a1e6fdb3ceafd2b0bdc046baff4372d3368a3916d8d6e76"
+      },
+      "linux": {
+        "sha256": "e445f466bb46d14590236d8bb12d89943cff9f25cee2ae55dbc00ca2a20422f2"
+      },
+      "mac": {
+        "sha256": "eb3b5267fabb7c4f7d82e441b837dcb061b04b33bee9cc33fba303b5b722994a"
+      }
+    },
     "0.26.3": {
       "windows": {
         "sha256": "cdd8de94829fd2a638c0b888c1b02afae415ab41e9eb9b875ba82682209ab888"
