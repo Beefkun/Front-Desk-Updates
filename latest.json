@@ -1,13 +1,16 @@
 {
-  "version": "0.28.2",
+  "version": "0.29.0",
   "released": "2026-10-11",
   "notes": [
-    "Lessons tell you exactly what to do, with the made-up students by name: \"Henry Wilson just walked in.",
-    "The screen dims around the button to press, with a flashing ring and an arrow, and the instruction right beside it.",
-    "Stuck?"
+    "A lesson for every part of Front Desk: 57 short lessons in nine topics, from checking in to staff hours, payroll and the room.",
+    "Devices without the devices: a pretend iPad runs the real tablet screen, a pretend TV the waiting-room display, and a pretend laptop shows how to connect a support computer.",
+    "\"What if…?\": a short quiz on the Wi-Fi dropping, a computer asleep or broken, and a computer at another location.",
+    "Practice never makes real files: lessons that save, print or restore only say what would happen.",
+    "The Room tab's find box finds students the same way as every other search."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.29.0": "9f29beb4f97d09f88250519c4e4ed5a61b71a856c9aa3a6898d90b670d569f6e",
     "0.28.2": "73c45373693043b2ba03be7da40e1ea191d4f939ab1a69929b42ac802d0269a5",
     "0.28.1": "68d32106cc7e9755b308d17abc895b3ef3ae7295da9fee92aa8cb161bacca848",
     "0.28.0": "0ef9c4bbe87342ed2d3a86b5d201b3dfd57a51e05ae110931875e9594c7fa7be",
@@ -18,10 +21,20 @@
     "0.26.0": "044ab676d2bd71a5799230578d77d4aee806aae5e3345ee0aa4af72c95346359",
     "0.25.6": "cd7e39b8b4e7f3561ce2b6768bc40b49a4f685e71d9a6e058524088d086b61b9",
     "0.25.5": "4767479c6a8885f19c8f2d1cabe382581aea832debc7f6272b3caa78abece521",
-    "0.25.4": "42d8084a064706bf56d7b3b7996049e5fa30a9b23613e202c45223498aa5aa28",
-    "0.25.3": "bc9f34f550546041f625fabf3dc548f924ff47b0087ab8a46db47d402db3be04"
+    "0.25.4": "42d8084a064706bf56d7b3b7996049e5fa30a9b23613e202c45223498aa5aa28"
   },
   "packages": {
+    "0.29.0": {
+      "windows": {
+        "sha256": "9f29beb4f97d09f88250519c4e4ed5a61b71a856c9aa3a6898d90b670d569f6e"
+      },
+      "linux": {
+        "sha256": "dd96b346c28f8139fc769323cbf59e05308a8e016df4daff15102a7a154537ca"
+      },
+      "mac": {
+        "sha256": "ae5e1c2ccd131210f212e6836c582f2c4c55432412c32c66888c679cbf70bf9b"
+      }
+    },
     "0.28.2": {
       "windows": {
         "sha256": "73c45373693043b2ba03be7da40e1ea191d4f939ab1a69929b42ac802d0269a5"
