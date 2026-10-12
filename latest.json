@@ -1,15 +1,17 @@
 {
-  "version": "0.29.0",
+  "version": "0.30.0",
   "released": "2026-10-11",
   "notes": [
-    "A lesson for every part of Front Desk: 57 short lessons in nine topics, from checking in to staff hours, payroll and the room.",
-    "Devices without the devices: a pretend iPad runs the real tablet screen, a pretend TV the waiting-room display, and a pretend laptop shows how to connect a support computer.",
-    "\"What if…?\": a short quiz on the Wi-Fi dropping, a computer asleep or broken, and a computer at another location.",
-    "Practice never makes real files: lessons that save, print or restore only say what would happen.",
-    "The Room tab's find box finds students the same way as every other search."
+    "Starting a lesson brings the practice window to the front and minimizes your Front Desk; Back to Front Desk at the end switches back.",
+    "The lesson card keeps out of the way of the names in a list and the button to press next, on small screens too.",
+    "Finishing a topic offers the next one, so there's no need to go back to the help to find more lessons.",
+    "A day at the desk: one ten-minute afternoon from opening to closing, putting the basics together: a final check for someone new.",
+    "Six more lessons: Records need a look, Import schedules, Clock-in PINs and My hours, Approve a pay period, Lock the tablet for students, and Your center.",
+    "Lessons come in a sensible order in each topic, and a lesson never saves a file, imports included."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.30.0": "bdc0f5ce2b6ad85ec6d9d1fca2ed9d960528a95db24ee862b0ea777abdcf50e8",
     "0.29.0": "9f29beb4f97d09f88250519c4e4ed5a61b71a856c9aa3a6898d90b670d569f6e",
     "0.28.2": "73c45373693043b2ba03be7da40e1ea191d4f939ab1a69929b42ac802d0269a5",
     "0.28.1": "68d32106cc7e9755b308d17abc895b3ef3ae7295da9fee92aa8cb161bacca848",
@@ -20,10 +22,20 @@
     "0.26.1": "11abb4989ac0386f8d281a0bf761a8a57e255cc83ba4e9125ecfff45f2c99ef8",
     "0.26.0": "044ab676d2bd71a5799230578d77d4aee806aae5e3345ee0aa4af72c95346359",
     "0.25.6": "cd7e39b8b4e7f3561ce2b6768bc40b49a4f685e71d9a6e058524088d086b61b9",
-    "0.25.5": "4767479c6a8885f19c8f2d1cabe382581aea832debc7f6272b3caa78abece521",
-    "0.25.4": "42d8084a064706bf56d7b3b7996049e5fa30a9b23613e202c45223498aa5aa28"
+    "0.25.5": "4767479c6a8885f19c8f2d1cabe382581aea832debc7f6272b3caa78abece521"
   },
   "packages": {
+    "0.30.0": {
+      "windows": {
+        "sha256": "bdc0f5ce2b6ad85ec6d9d1fca2ed9d960528a95db24ee862b0ea777abdcf50e8"
+      },
+      "linux": {
+        "sha256": "b8890e2b51ca864cfafced79e17160ca8303b233fb586891d32369a25e5602da"
+      },
+      "mac": {
+        "sha256": "19c13bd1ea904f4001a21a3555d21865ddf0f91134436a58e371d90c8711ed02"
+      }
+    },
     "0.29.0": {
       "windows": {
         "sha256": "9f29beb4f97d09f88250519c4e4ed5a61b71a856c9aa3a6898d90b670d569f6e"
