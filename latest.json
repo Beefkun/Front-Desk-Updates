@@ -1,15 +1,16 @@
 {
-  "version": "0.30.1",
-  "released": "2026-10-12",
+  "version": "0.30.2",
+  "released": "2026-10-15",
   "notes": [
-    "Support computers find the main computer again when its Wi-Fi address changes, and can always be connected to a different main computer without erasing anything.",
-    "The letters beside the check-in list show the right students: S showed everyone (BUG-142).",
-    "The front-desk view shows the Room tab too.",
-    "The practice copy closes once its window has been gone a few minutes, and starting a lesson opens its window if it's missing (BUG-143).",
-    "The practice copy never saves a backup (BUG-144)."
+    "The check-in list reaches down to the last letter beside it, instead of stopping partway with empty space below.",
+    "Payroll files for any payroll service: your own layout can split first and last names and vacation and sick hours, and add a code on every row.",
+    "Payroll summary on Hours and payroll prints everyone's hours, time off and pay items on one page, for typing into a payroll website.",
+    "Macs can check for updates and update themselves: they couldn't reach the update file before (BUG-145).",
+    "On a computer without Google Chrome, Setup → This computer says to install it, so Front Desk opens in its own window (BUG-146)."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.30.2": "fc99f2049133e351b3f5840c55482d6153de5747fae36348f1f303146338da34",
     "0.30.1": "ffcb3a8d2265a13d6e69a323aa6da91dae738c34438f995e153ae008f4937dd3",
     "0.30.0": "bdc0f5ce2b6ad85ec6d9d1fca2ed9d960528a95db24ee862b0ea777abdcf50e8",
     "0.29.0": "9f29beb4f97d09f88250519c4e4ed5a61b71a856c9aa3a6898d90b670d569f6e",
@@ -20,10 +21,20 @@
     "0.26.3": "cdd8de94829fd2a638c0b888c1b02afae415ab41e9eb9b875ba82682209ab888",
     "0.26.2": "adfdc41263f47f5f25b215f84e111ae48c12f21608f1debc44ad7720553ddce0",
     "0.26.1": "11abb4989ac0386f8d281a0bf761a8a57e255cc83ba4e9125ecfff45f2c99ef8",
-    "0.26.0": "044ab676d2bd71a5799230578d77d4aee806aae5e3345ee0aa4af72c95346359",
-    "0.25.6": "cd7e39b8b4e7f3561ce2b6768bc40b49a4f685e71d9a6e058524088d086b61b9"
+    "0.26.0": "044ab676d2bd71a5799230578d77d4aee806aae5e3345ee0aa4af72c95346359"
   },
   "packages": {
+    "0.30.2": {
+      "windows": {
+        "sha256": "fc99f2049133e351b3f5840c55482d6153de5747fae36348f1f303146338da34"
+      },
+      "linux": {
+        "sha256": "0da97a25e2bfcfdc261cd23a28ad819c89e02e27824f243e86a0c96b66e3afc4"
+      },
+      "mac": {
+        "sha256": "6a48b44ccdd6cd01d24722b7cb1b5fe4a560266173e4f846b3e7a2a23ea51770"
+      }
+    },
     "0.30.1": {
       "windows": {
         "sha256": "ffcb3a8d2265a13d6e69a323aa6da91dae738c34438f995e153ae008f4937dd3"
