@@ -1,15 +1,14 @@
 {
-  "version": "0.31.0",
-  "released": "2026-10-20",
+  "version": "0.31.1",
+  "released": "2026-10-24",
   "notes": [
-    "Scanning stations work like the front desk computer: the same search, Show, Sort and letters on Check in, the line at the top, and Expected now.",
-    "A Who's here tab on stations, coloured by how long each student has been here, with Check out on each card.",
-    "Students on a station has the same search and sort, and a profile with each student's schedule, subjects, flags and last visit.",
-    "A station says Scanning station at the top, has the front desk computer's look and a ?",
-    "The diagnostic log now keeps page errors, notes when the window went quiet for a long time, and says why a Mac stays in a browser tab, to track down a page found blank in the morning."
+    "Support computers stay connected while the main computer is minimized: its window is kept awake, and Chrome is found on any Mac (BUG-147, BUG-148).",
+    "No more blank screen after a computer wakes up: Front Desk reloads its screen itself when it comes back from sleep, unless something is open.",
+    "The old time clock's CSV export can be imported too, and the import leaves out double taps and counts entries typed in twice only once (BUG-149)."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.31.1": "3343c2ff9ae0f66b21caf8b322273f22167261a6a3dad5d1b5a19b413edaf960",
     "0.31.0": "0c9b7d5d4727e476c47106a782110045a6ef5a6bd2a10fb6b3df327db1375543",
     "0.30.2": "fc99f2049133e351b3f5840c55482d6153de5747fae36348f1f303146338da34",
     "0.30.1": "ffcb3a8d2265a13d6e69a323aa6da91dae738c34438f995e153ae008f4937dd3",
@@ -20,10 +19,20 @@
     "0.28.0": "0ef9c4bbe87342ed2d3a86b5d201b3dfd57a51e05ae110931875e9594c7fa7be",
     "0.27.0": "40800128f5ec40801a1e6fdb3ceafd2b0bdc046baff4372d3368a3916d8d6e76",
     "0.26.3": "cdd8de94829fd2a638c0b888c1b02afae415ab41e9eb9b875ba82682209ab888",
-    "0.26.2": "adfdc41263f47f5f25b215f84e111ae48c12f21608f1debc44ad7720553ddce0",
-    "0.26.1": "11abb4989ac0386f8d281a0bf761a8a57e255cc83ba4e9125ecfff45f2c99ef8"
+    "0.26.2": "adfdc41263f47f5f25b215f84e111ae48c12f21608f1debc44ad7720553ddce0"
   },
   "packages": {
+    "0.31.1": {
+      "windows": {
+        "sha256": "3343c2ff9ae0f66b21caf8b322273f22167261a6a3dad5d1b5a19b413edaf960"
+      },
+      "linux": {
+        "sha256": "6a3b4be1d962c7d414df2c00e18dd077aaeff09d438c43a680b77cd877f9686b"
+      },
+      "mac": {
+        "sha256": "009e7b319ffcc5835c459d45e4f08e9ff0e4e21cefef5f7f24ce108ec332df47"
+      }
+    },
     "0.31.0": {
       "windows": {
         "sha256": "0c9b7d5d4727e476c47106a782110045a6ef5a6bd2a10fb6b3df327db1375543"
@@ -143,17 +152,6 @@
       },
       "mac": {
         "sha256": "56f22d87e33f61c7cb715bbe90b6447b5454d35d3d790767dc3e19e7fb910b53"
-      }
-    },
-    "0.26.1": {
-      "windows": {
-        "sha256": "11abb4989ac0386f8d281a0bf761a8a57e255cc83ba4e9125ecfff45f2c99ef8"
-      },
-      "linux": {
-        "sha256": "cbdc3322854c5325f26d0d918caeb58357e410f2f924366347b74757d97ba01b"
-      },
-      "mac": {
-        "sha256": "d38419f7a712f244df13d88a28cf678e33617bd0f5f0f84eb107e8759c637140"
       }
     }
   }
