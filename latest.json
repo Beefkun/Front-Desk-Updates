@@ -1,13 +1,13 @@
 {
-  "version": "0.31.1",
+  "version": "0.31.2",
   "released": "2026-10-24",
   "notes": [
-    "Support computers stay connected while the main computer is minimized: its window is kept awake, and Chrome is found on any Mac (BUG-147, BUG-148).",
-    "No more blank screen after a computer wakes up: Front Desk reloads its screen itself when it comes back from sleep, unless something is open.",
-    "The old time clock's CSV export can be imported too, and the import leaves out double taps and counts entries typed in twice only once (BUG-149)."
+    "Importing both of the old time clock's files no longer doubles every shift: shifts already here are recognised, and a shift still open in one file is finished by the other (BUG-150).",
+    "Remove the imported hours on the Import pane takes out what came from the old time clock, so it can be imported again."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.31.2": "7ec5c6d7fec3a6d39d5511f44c1058e6ff09caef09d50f302598d05713645daa",
     "0.31.1": "3343c2ff9ae0f66b21caf8b322273f22167261a6a3dad5d1b5a19b413edaf960",
     "0.31.0": "0c9b7d5d4727e476c47106a782110045a6ef5a6bd2a10fb6b3df327db1375543",
     "0.30.2": "fc99f2049133e351b3f5840c55482d6153de5747fae36348f1f303146338da34",
@@ -18,10 +18,20 @@
     "0.28.1": "68d32106cc7e9755b308d17abc895b3ef3ae7295da9fee92aa8cb161bacca848",
     "0.28.0": "0ef9c4bbe87342ed2d3a86b5d201b3dfd57a51e05ae110931875e9594c7fa7be",
     "0.27.0": "40800128f5ec40801a1e6fdb3ceafd2b0bdc046baff4372d3368a3916d8d6e76",
-    "0.26.3": "cdd8de94829fd2a638c0b888c1b02afae415ab41e9eb9b875ba82682209ab888",
-    "0.26.2": "adfdc41263f47f5f25b215f84e111ae48c12f21608f1debc44ad7720553ddce0"
+    "0.26.3": "cdd8de94829fd2a638c0b888c1b02afae415ab41e9eb9b875ba82682209ab888"
   },
   "packages": {
+    "0.31.2": {
+      "windows": {
+        "sha256": "7ec5c6d7fec3a6d39d5511f44c1058e6ff09caef09d50f302598d05713645daa"
+      },
+      "linux": {
+        "sha256": "1921adc1b640d8e9096a9024b3397ed0ec96134685638cacc31f06b98bae22c6"
+      },
+      "mac": {
+        "sha256": "d115680512d6a20b8a8acd4bd2ea7936a3707b6aecc81cf9a888381729a7faa6"
+      }
+    },
     "0.31.1": {
       "windows": {
         "sha256": "3343c2ff9ae0f66b21caf8b322273f22167261a6a3dad5d1b5a19b413edaf960"
@@ -141,17 +151,6 @@
       },
       "mac": {
         "sha256": "1b51359b6469271bc763aa2befbd4e909af9672af221ea5b428ea6e7f65a204e"
-      }
-    },
-    "0.26.2": {
-      "windows": {
-        "sha256": "adfdc41263f47f5f25b215f84e111ae48c12f21608f1debc44ad7720553ddce0"
-      },
-      "linux": {
-        "sha256": "f18b744316d6cdc32291deaafe0361c7726f21f19c769f0a4e02c66a820c4a24"
-      },
-      "mac": {
-        "sha256": "56f22d87e33f61c7cb715bbe90b6447b5454d35d3d790767dc3e19e7fb910b53"
       }
     }
   }
