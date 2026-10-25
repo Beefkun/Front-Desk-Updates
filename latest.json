@@ -1,13 +1,12 @@
 {
-  "version": "0.32.0",
+  "version": "0.32.1",
   "released": "2026-10-25",
   "notes": [
-    "A staff card scanned twice counts once: a second scan within two minutes is ignored, so no more 0-minute shifts.",
-    "Clocking out of a shift over 12 hours, or one begun in the night, asks first: clock out, or start today's shift and leave the forgotten one for a manager to fix.",
-    "A clock-in between midnight and 5 AM is listed under Clock-ins to check on the Staff tab."
+    "Salaried staff aren't asked before clocking out of a long or night shift, and their night clock-ins aren't listed: their hours don't change their pay."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.32.1": "68b249d1a41cc7143c34110db145a26840353ab017895abbe7a576c7694de651",
     "0.32.0": "afd1af4a343808b673a973de88001531ed79f827c81e03349eeb07acc718c66e",
     "0.31.4": "e461534983acd4cf84f166d5ebfdac7b4bb8c9ffa56f08dd912d20df4ce0ad11",
     "0.31.3": "fc4b8856870f08d8cf40c831567ed3df801b12e264f141c5b164c43f9d093d0f",
@@ -18,10 +17,20 @@
     "0.30.1": "ffcb3a8d2265a13d6e69a323aa6da91dae738c34438f995e153ae008f4937dd3",
     "0.30.0": "bdc0f5ce2b6ad85ec6d9d1fca2ed9d960528a95db24ee862b0ea777abdcf50e8",
     "0.29.0": "9f29beb4f97d09f88250519c4e4ed5a61b71a856c9aa3a6898d90b670d569f6e",
-    "0.28.2": "73c45373693043b2ba03be7da40e1ea191d4f939ab1a69929b42ac802d0269a5",
-    "0.28.1": "68d32106cc7e9755b308d17abc895b3ef3ae7295da9fee92aa8cb161bacca848"
+    "0.28.2": "73c45373693043b2ba03be7da40e1ea191d4f939ab1a69929b42ac802d0269a5"
   },
   "packages": {
+    "0.32.1": {
+      "windows": {
+        "sha256": "68b249d1a41cc7143c34110db145a26840353ab017895abbe7a576c7694de651"
+      },
+      "linux": {
+        "sha256": "fffffc24e43a08e0fa9c682cb15bf0a532f4cadf7080c019bcd0ce4896872d0b"
+      },
+      "mac": {
+        "sha256": "af2fb1a43b650dad758b1e794c7571c3b8b35a984ac96a7c6f11ba602bbbd204"
+      }
+    },
     "0.32.0": {
       "windows": {
         "sha256": "afd1af4a343808b673a973de88001531ed79f827c81e03349eeb07acc718c66e"
@@ -141,17 +150,6 @@
       },
       "mac": {
         "sha256": "3b26b5287e0e24a99d17b02633447851e1fef40e0a7293ff006d3bfc2ea35fb7"
-      }
-    },
-    "0.28.1": {
-      "windows": {
-        "sha256": "68d32106cc7e9755b308d17abc895b3ef3ae7295da9fee92aa8cb161bacca848"
-      },
-      "linux": {
-        "sha256": "b9f2b5bb83294fe78aac7fd25c425b28cb2d40454670a3a90f1771be5528fb41"
-      },
-      "mac": {
-        "sha256": "aa144977060f0887f485d3bd581e7f7129bc8342c5c9afdc0a5207ef183d4319"
       }
     }
   }
