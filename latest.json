@@ -1,11 +1,12 @@
 {
-  "version": "0.31.3",
+  "version": "0.31.4",
   "released": "2026-10-25",
   "notes": [
-    "The staff hours import brings in every shift again: a clock-out added by hand could make it skip weeks of the old time clock's hours (BUG-151)."
+    "The time clock import's Import button is at the top of the summary, with a line saying nothing is brought in until it's pressed: below the summary's notes it was off the screen."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.31.4": "e461534983acd4cf84f166d5ebfdac7b4bb8c9ffa56f08dd912d20df4ce0ad11",
     "0.31.3": "fc4b8856870f08d8cf40c831567ed3df801b12e264f141c5b164c43f9d093d0f",
     "0.31.2": "7ec5c6d7fec3a6d39d5511f44c1058e6ff09caef09d50f302598d05713645daa",
     "0.31.1": "3343c2ff9ae0f66b21caf8b322273f22167261a6a3dad5d1b5a19b413edaf960",
@@ -16,10 +17,20 @@
     "0.29.0": "9f29beb4f97d09f88250519c4e4ed5a61b71a856c9aa3a6898d90b670d569f6e",
     "0.28.2": "73c45373693043b2ba03be7da40e1ea191d4f939ab1a69929b42ac802d0269a5",
     "0.28.1": "68d32106cc7e9755b308d17abc895b3ef3ae7295da9fee92aa8cb161bacca848",
-    "0.28.0": "0ef9c4bbe87342ed2d3a86b5d201b3dfd57a51e05ae110931875e9594c7fa7be",
-    "0.27.0": "40800128f5ec40801a1e6fdb3ceafd2b0bdc046baff4372d3368a3916d8d6e76"
+    "0.28.0": "0ef9c4bbe87342ed2d3a86b5d201b3dfd57a51e05ae110931875e9594c7fa7be"
   },
   "packages": {
+    "0.31.4": {
+      "windows": {
+        "sha256": "e461534983acd4cf84f166d5ebfdac7b4bb8c9ffa56f08dd912d20df4ce0ad11"
+      },
+      "linux": {
+        "sha256": "1ad81607ac601ec8314bda504f84cf1c881bebbe39d27805638e34d415c00862"
+      },
+      "mac": {
+        "sha256": "b5743fa5c8bf888f585f53a3131b29fb03bca2e09d0901b2889ed1c0259aa053"
+      }
+    },
     "0.31.3": {
       "windows": {
         "sha256": "fc4b8856870f08d8cf40c831567ed3df801b12e264f141c5b164c43f9d093d0f"
@@ -139,17 +150,6 @@
       },
       "mac": {
         "sha256": "9990e2fa413a666458ec7a0c9784ac6859c2b655be5c6d8cc22d8f99fca92b1d"
-      }
-    },
-    "0.27.0": {
-      "windows": {
-        "sha256": "40800128f5ec40801a1e6fdb3ceafd2b0bdc046baff4372d3368a3916d8d6e76"
-      },
-      "linux": {
-        "sha256": "e445f466bb46d14590236d8bb12d89943cff9f25cee2ae55dbc00ca2a20422f2"
-      },
-      "mac": {
-        "sha256": "eb3b5267fabb7c4f7d82e441b837dcb061b04b33bee9cc33fba303b5b722994a"
       }
     }
   }
