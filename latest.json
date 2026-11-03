@@ -1,12 +1,13 @@
 {
-  "version": "0.32.2",
-  "released": "2026-11-02",
+  "version": "0.33.0",
+  "released": "2026-11-03",
   "notes": [
-    "Front Desk no longer closes itself while it's in the background: it checks that its window has really been closed before stopping (BUG-152).",
-    "On the day the clocks change, staff aren't shown as late or still here an hour early, and the staff-to-student hours line up (BUG-153)."
+    "Scratch-paper doodles: the graph paper behind each screen has pencil doodles on it, and a few change each time Front Desk opens.",
+    "Front Desk has its own icon and logo: on the program, the installer, the taskbar, the welcome card, printed reports, the desk guide and the manual."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.33.0": "c753a93c37a76e26ad7c3522d11ce3bff7780e53fa83b464eb9085d691545448",
     "0.32.2": "9235cd77877ca75ca574679a178f836dc6eae1a5ac16f143094bde9ced682342",
     "0.32.1": "68b249d1a41cc7143c34110db145a26840353ab017895abbe7a576c7694de651",
     "0.32.0": "afd1af4a343808b673a973de88001531ed79f827c81e03349eeb07acc718c66e",
@@ -17,10 +18,20 @@
     "0.31.0": "0c9b7d5d4727e476c47106a782110045a6ef5a6bd2a10fb6b3df327db1375543",
     "0.30.2": "fc99f2049133e351b3f5840c55482d6153de5747fae36348f1f303146338da34",
     "0.30.1": "ffcb3a8d2265a13d6e69a323aa6da91dae738c34438f995e153ae008f4937dd3",
-    "0.30.0": "bdc0f5ce2b6ad85ec6d9d1fca2ed9d960528a95db24ee862b0ea777abdcf50e8",
-    "0.29.0": "9f29beb4f97d09f88250519c4e4ed5a61b71a856c9aa3a6898d90b670d569f6e"
+    "0.30.0": "bdc0f5ce2b6ad85ec6d9d1fca2ed9d960528a95db24ee862b0ea777abdcf50e8"
   },
   "packages": {
+    "0.33.0": {
+      "windows": {
+        "sha256": "c753a93c37a76e26ad7c3522d11ce3bff7780e53fa83b464eb9085d691545448"
+      },
+      "linux": {
+        "sha256": "23eb66add1b70e783204fbf663a087ca8818d8402e86c11f2b4d7db743a3dcf3"
+      },
+      "mac": {
+        "sha256": "20d37543d2f5827f35ba7a3e0e5a71c6f80d78dbc24ca57bcda7e07e925a2362"
+      }
+    },
     "0.32.2": {
       "windows": {
         "sha256": "9235cd77877ca75ca574679a178f836dc6eae1a5ac16f143094bde9ced682342"
@@ -140,17 +151,6 @@
       },
       "mac": {
         "sha256": "19c13bd1ea904f4001a21a3555d21865ddf0f91134436a58e371d90c8711ed02"
-      }
-    },
-    "0.29.0": {
-      "windows": {
-        "sha256": "9f29beb4f97d09f88250519c4e4ed5a61b71a856c9aa3a6898d90b670d569f6e"
-      },
-      "linux": {
-        "sha256": "dd96b346c28f8139fc769323cbf59e05308a8e016df4daff15102a7a154537ca"
-      },
-      "mac": {
-        "sha256": "ae5e1c2ccd131210f212e6836c582f2c4c55432412c32c66888c679cbf70bf9b"
       }
     }
   }
