@@ -1,11 +1,13 @@
 {
-  "version": "0.32.1",
-  "released": "2026-10-25",
+  "version": "0.32.2",
+  "released": "2026-11-02",
   "notes": [
-    "Salaried staff aren't asked before clocking out of a long or night shift, and their night clock-ins aren't listed: their hours don't change their pay."
+    "Front Desk no longer closes itself while it's in the background: it checks that its window has really been closed before stopping (BUG-152).",
+    "On the day the clocks change, staff aren't shown as late or still here an hour early, and the staff-to-student hours line up (BUG-153)."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.32.2": "9235cd77877ca75ca574679a178f836dc6eae1a5ac16f143094bde9ced682342",
     "0.32.1": "68b249d1a41cc7143c34110db145a26840353ab017895abbe7a576c7694de651",
     "0.32.0": "afd1af4a343808b673a973de88001531ed79f827c81e03349eeb07acc718c66e",
     "0.31.4": "e461534983acd4cf84f166d5ebfdac7b4bb8c9ffa56f08dd912d20df4ce0ad11",
@@ -16,10 +18,20 @@
     "0.30.2": "fc99f2049133e351b3f5840c55482d6153de5747fae36348f1f303146338da34",
     "0.30.1": "ffcb3a8d2265a13d6e69a323aa6da91dae738c34438f995e153ae008f4937dd3",
     "0.30.0": "bdc0f5ce2b6ad85ec6d9d1fca2ed9d960528a95db24ee862b0ea777abdcf50e8",
-    "0.29.0": "9f29beb4f97d09f88250519c4e4ed5a61b71a856c9aa3a6898d90b670d569f6e",
-    "0.28.2": "73c45373693043b2ba03be7da40e1ea191d4f939ab1a69929b42ac802d0269a5"
+    "0.29.0": "9f29beb4f97d09f88250519c4e4ed5a61b71a856c9aa3a6898d90b670d569f6e"
   },
   "packages": {
+    "0.32.2": {
+      "windows": {
+        "sha256": "9235cd77877ca75ca574679a178f836dc6eae1a5ac16f143094bde9ced682342"
+      },
+      "linux": {
+        "sha256": "bcaff4ecd4737ee78f06da21ff81d7b712c272876519b5304710b4b161cf1115"
+      },
+      "mac": {
+        "sha256": "d5110dc57a2fda163f4487b14a4ec783e219e8dd9a9d30d2ce7a294538e99eb2"
+      }
+    },
     "0.32.1": {
       "windows": {
         "sha256": "68b249d1a41cc7143c34110db145a26840353ab017895abbe7a576c7694de651"
@@ -139,17 +151,6 @@
       },
       "mac": {
         "sha256": "ae5e1c2ccd131210f212e6836c582f2c4c55432412c32c66888c679cbf70bf9b"
-      }
-    },
-    "0.28.2": {
-      "windows": {
-        "sha256": "73c45373693043b2ba03be7da40e1ea191d4f939ab1a69929b42ac802d0269a5"
-      },
-      "linux": {
-        "sha256": "82ae07d83ee0a7e52e8ce6e46baf808cfd801174fe3e913752f338fca14c0d0d"
-      },
-      "mac": {
-        "sha256": "3b26b5287e0e24a99d17b02633447851e1fef40e0a7293ff006d3bfc2ea35fb7"
       }
     }
   }
