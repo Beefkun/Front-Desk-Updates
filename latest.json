@@ -1,11 +1,14 @@
 {
-  "version": "0.33.2",
-  "released": "2026-11-03",
+  "version": "0.34.0",
+  "released": "2026-11-04",
   "notes": [
-    "Front Desk's icon is the simpler drawing at every size: a plain face and two lines on the card, easier to spot on the taskbar and the desktop."
+    "What Front Desk's computers and tablets pass to each other over the Wi-Fi is now encrypted, so only your center's own can read it.",
+    "The Kumon checklist shows Front Desk's own daily copies and who has finished which lessons, so it no longer says \"No backup\" while copies are being kept.",
+    "Keep Front Desk on your staff Wi-Fi: the checklist, the windows for connecting computers and tablets, Setup's help and the manual now say so."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.34.0": "9d37554d24574b55b48bea64c687e05a8f97436ac417d4205115666cb85e722e",
     "0.33.2": "d46f4f071bed4a20f7feebf37b54e5d237379720497bba66734beb90c9f8e52d",
     "0.33.1": "e36de2feda0d1555c69253219e189a38913e54a7bf87649cbecc7e9c429a6e9f",
     "0.33.0": "c753a93c37a76e26ad7c3522d11ce3bff7780e53fa83b464eb9085d691545448",
@@ -16,10 +19,20 @@
     "0.31.3": "fc4b8856870f08d8cf40c831567ed3df801b12e264f141c5b164c43f9d093d0f",
     "0.31.2": "7ec5c6d7fec3a6d39d5511f44c1058e6ff09caef09d50f302598d05713645daa",
     "0.31.1": "3343c2ff9ae0f66b21caf8b322273f22167261a6a3dad5d1b5a19b413edaf960",
-    "0.31.0": "0c9b7d5d4727e476c47106a782110045a6ef5a6bd2a10fb6b3df327db1375543",
-    "0.30.2": "fc99f2049133e351b3f5840c55482d6153de5747fae36348f1f303146338da34"
+    "0.31.0": "0c9b7d5d4727e476c47106a782110045a6ef5a6bd2a10fb6b3df327db1375543"
   },
   "packages": {
+    "0.34.0": {
+      "windows": {
+        "sha256": "9d37554d24574b55b48bea64c687e05a8f97436ac417d4205115666cb85e722e"
+      },
+      "linux": {
+        "sha256": "86908b1da86b707e6f9b86c5acf1e761085c2556445ac739f6cce89bedd36de0"
+      },
+      "mac": {
+        "sha256": "cd1e575cacdbcb4183ca28c5584b0d4ab1e83d8951a060c4b8bbe9c44395c1d5"
+      }
+    },
     "0.33.2": {
       "windows": {
         "sha256": "d46f4f071bed4a20f7feebf37b54e5d237379720497bba66734beb90c9f8e52d"
@@ -139,17 +152,6 @@
       },
       "mac": {
         "sha256": "ec9a2c688efb41958a16056ce11ebfa55949bed8a28a85dbcd4d197482b16054"
-      }
-    },
-    "0.30.2": {
-      "windows": {
-        "sha256": "fc99f2049133e351b3f5840c55482d6153de5747fae36348f1f303146338da34"
-      },
-      "linux": {
-        "sha256": "0da97a25e2bfcfdc261cd23a28ad819c89e02e27824f243e86a0c96b66e3afc4"
-      },
-      "mac": {
-        "sha256": "6a48b44ccdd6cd01d24722b7cb1b5fe4a560266173e4f846b3e7a2a23ea51770"
       }
     }
   }
