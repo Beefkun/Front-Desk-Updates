@@ -1,11 +1,12 @@
 {
-  "version": "0.33.1",
+  "version": "0.33.2",
   "released": "2026-11-03",
   "notes": [
-    "Updating now shows Front Desk's new icon on the desktop and Start menu shortcuts straight away, on support computers that update themselves too (BUG-154)."
+    "Front Desk's icon is the simpler drawing at every size: a plain face and two lines on the card, easier to spot on the taskbar and the desktop."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.33.2": "d46f4f071bed4a20f7feebf37b54e5d237379720497bba66734beb90c9f8e52d",
     "0.33.1": "e36de2feda0d1555c69253219e189a38913e54a7bf87649cbecc7e9c429a6e9f",
     "0.33.0": "c753a93c37a76e26ad7c3522d11ce3bff7780e53fa83b464eb9085d691545448",
     "0.32.2": "9235cd77877ca75ca574679a178f836dc6eae1a5ac16f143094bde9ced682342",
@@ -16,10 +17,20 @@
     "0.31.2": "7ec5c6d7fec3a6d39d5511f44c1058e6ff09caef09d50f302598d05713645daa",
     "0.31.1": "3343c2ff9ae0f66b21caf8b322273f22167261a6a3dad5d1b5a19b413edaf960",
     "0.31.0": "0c9b7d5d4727e476c47106a782110045a6ef5a6bd2a10fb6b3df327db1375543",
-    "0.30.2": "fc99f2049133e351b3f5840c55482d6153de5747fae36348f1f303146338da34",
-    "0.30.1": "ffcb3a8d2265a13d6e69a323aa6da91dae738c34438f995e153ae008f4937dd3"
+    "0.30.2": "fc99f2049133e351b3f5840c55482d6153de5747fae36348f1f303146338da34"
   },
   "packages": {
+    "0.33.2": {
+      "windows": {
+        "sha256": "d46f4f071bed4a20f7feebf37b54e5d237379720497bba66734beb90c9f8e52d"
+      },
+      "linux": {
+        "sha256": "824a9366c2573adc7b204ac5ace93b9922b97cab5cf6ca85aef9e18d1db5e21c"
+      },
+      "mac": {
+        "sha256": "d21e3931e2b4833f3cc4bb7596fd29067dd7f02fcd9fdd06b9f2a18155d2c1ec"
+      }
+    },
     "0.33.1": {
       "windows": {
         "sha256": "e36de2feda0d1555c69253219e189a38913e54a7bf87649cbecc7e9c429a6e9f"
@@ -139,17 +150,6 @@
       },
       "mac": {
         "sha256": "6a48b44ccdd6cd01d24722b7cb1b5fe4a560266173e4f846b3e7a2a23ea51770"
-      }
-    },
-    "0.30.1": {
-      "windows": {
-        "sha256": "ffcb3a8d2265a13d6e69a323aa6da91dae738c34438f995e153ae008f4937dd3"
-      },
-      "linux": {
-        "sha256": "271b5b2b96f1903a4473cb78fdb820edf0165e1260ec3d4c4b1b974aebb4a33c"
-      },
-      "mac": {
-        "sha256": "fa7ffe3a97607d84bc595216c6af6d923241b95b9c5c3fadef872cfeb8c458eb"
       }
     }
   }
