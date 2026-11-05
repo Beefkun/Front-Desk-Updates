@@ -1,13 +1,16 @@
 {
-  "version": "0.34.0",
+  "version": "0.34.1",
   "released": "2026-11-04",
   "notes": [
-    "What Front Desk's computers and tablets pass to each other over the Wi-Fi is now encrypted, so only your center's own can read it.",
-    "The Kumon checklist shows Front Desk's own daily copies and who has finished which lessons, so it no longer says \"No backup\" while copies are being kept.",
-    "Keep Front Desk on your staff Wi-Fi: the checklist, the windows for connecting computers and tablets, Setup's help and the manual now say so."
+    "Front Desk no longer stops when Chrome is too busy to answer, and a window that freezes opens again by itself.",
+    "Needs a look clears once you add the checkout time, also when a visit was recorded twice by two computers, and without asking whether the arrival is right (BUG-156, BUG-157).",
+    "A scanner set to COM port mode no longer checks people in or out with scans made while Front Desk was closed (BUG-158).",
+    "Suggested schedule changes: Apply changes the student's week for you.",
+    "Computers and tablets switch to fresh keys once more, by themselves: 0.34.0 sent its new ones readable to computers that hadn't updated yet (BUG-155)."
   ],
   "how": "Shahien will send you the new installer. Install it over the old one; your records stay as they are.",
   "installers": {
+    "0.34.1": "8be24f69d6a6c213512396f20df68ae53181ac1db7f02f0b19f9159ce28942dc",
     "0.34.0": "9d37554d24574b55b48bea64c687e05a8f97436ac417d4205115666cb85e722e",
     "0.33.2": "d46f4f071bed4a20f7feebf37b54e5d237379720497bba66734beb90c9f8e52d",
     "0.33.1": "e36de2feda0d1555c69253219e189a38913e54a7bf87649cbecc7e9c429a6e9f",
@@ -18,10 +21,20 @@
     "0.31.4": "e461534983acd4cf84f166d5ebfdac7b4bb8c9ffa56f08dd912d20df4ce0ad11",
     "0.31.3": "fc4b8856870f08d8cf40c831567ed3df801b12e264f141c5b164c43f9d093d0f",
     "0.31.2": "7ec5c6d7fec3a6d39d5511f44c1058e6ff09caef09d50f302598d05713645daa",
-    "0.31.1": "3343c2ff9ae0f66b21caf8b322273f22167261a6a3dad5d1b5a19b413edaf960",
-    "0.31.0": "0c9b7d5d4727e476c47106a782110045a6ef5a6bd2a10fb6b3df327db1375543"
+    "0.31.1": "3343c2ff9ae0f66b21caf8b322273f22167261a6a3dad5d1b5a19b413edaf960"
   },
   "packages": {
+    "0.34.1": {
+      "windows": {
+        "sha256": "8be24f69d6a6c213512396f20df68ae53181ac1db7f02f0b19f9159ce28942dc"
+      },
+      "linux": {
+        "sha256": "c39db785e16bb8131da0c6fd4bedcb284b04b63f9ef9c0dd0d5aa417cfe6a626"
+      },
+      "mac": {
+        "sha256": "9eb2a505d14a691fe9ae556fc116a6a51757c02c3f44259cfa6721f8bddfee86"
+      }
+    },
     "0.34.0": {
       "windows": {
         "sha256": "9d37554d24574b55b48bea64c687e05a8f97436ac417d4205115666cb85e722e"
@@ -141,17 +154,6 @@
       },
       "mac": {
         "sha256": "009e7b319ffcc5835c459d45e4f08e9ff0e4e21cefef5f7f24ce108ec332df47"
-      }
-    },
-    "0.31.0": {
-      "windows": {
-        "sha256": "0c9b7d5d4727e476c47106a782110045a6ef5a6bd2a10fb6b3df327db1375543"
-      },
-      "linux": {
-        "sha256": "7b9b645ec9fba228d580af597e7b9e998dde1738dd9cf5cddf9dd4409a5c71d2"
-      },
-      "mac": {
-        "sha256": "ec9a2c688efb41958a16056ce11ebfa55949bed8a28a85dbcd4d197482b16054"
       }
     }
   }
